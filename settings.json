@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "workbench.iconTheme": "ayu",
+  "workbench.startupEditor": "none",
+  // "files.autoSave": "afterDelay",
+  // "files.autoSaveDelay": 3000,
+  "editor.renderWhitespace": "boundary",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "security.workspace.trust.untrustedFiles": "open"
+}
