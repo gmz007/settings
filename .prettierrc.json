@@ -1,18 +1,35 @@
 {
-  "overrides": [
-    {
-      "files": ["**/*.html", "**/*.htm"],
-      "options": {
-        "bracketSameLine": true,
-        "printWidth": 160,
-        "tabWidth": 2
-      }
-    },
-    {
-      "files": ["**/*.css"],
-      "options": {
-        "tabWidth": 2
-      }
-    }
-  ]
+    "overrides": [
+        {
+            "files": ["**/*.htm", "**/*.html"],
+            "options": {
+                "tabWidth": 2,
+                "printWidth": 160,
+                "bracketSameLine": true
+            }
+        },
+        {
+            "files": ["**/*.css"],
+            "options": {
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": ["**/*.js"],
+            "options": {
+                "tabWidth": 4,
+                "semi": true
+            }
+        },
+        {
+            "files": ["**/*.json"],
+            "options": {
+                "tabWidth": 4
+            }
+        },
+        {
+            "files": ["**/.prettierrc.json"],
+            "options": { "parser": "json" }
+        }
+    ]
 }
