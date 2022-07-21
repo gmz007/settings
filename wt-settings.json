@@ -29,6 +29,14 @@
         {
             "command": 
             {
+                "action": "sendInput",
+                "input": "cd ..\r"
+            },
+            "keys": "ctrl+up"
+        },
+        {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -41,6 +49,24 @@
                 "action": "newTab"
             },
             "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "cls\r"
+            },
+            "keys": "ctrl+k",
+            "name": "clear command prompt"
+        },
+        {
+            "command": 
+            {
+                "action": "sendInput",
+                "input": "clear\r"
+            },
+            "keys": "ctrl+shift+l",
+            "name": "clear terminal"
         }
     ],
     "copyFormatting": "none",
