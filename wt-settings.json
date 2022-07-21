@@ -4,10 +4,6 @@
     "actions": 
     [
         {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "copy",
@@ -16,8 +12,19 @@
             "keys": "ctrl+c"
         },
         {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
             "command": "find",
-            "keys": "ctrl+shift+f"
+            "keys": "ctrl+f"
+        },
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "keys": "ctrl+w"
         },
         {
             "command": 
@@ -27,35 +34,41 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{794bfe87-5140-4fc3-a38c-bd1371309e03}",
+    "defaultProfile": "{164a0da7-2c23-47e2-a5ab-e6183d463bd0}",
     "profiles": 
     {
         "defaults": 
         {
             "colorScheme": "One Half Dark",
-            "opacity": 95
+            "opacity": 90,
+            "useAcrylic": false
         },
         "list": 
         [
             {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
             },
             {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
-                "commandline": "%PROGRAMFILES%\\Git\\usr\\bin\\bash.exe -i -l",
-                "guid": "{794bfe87-5140-4fc3-a38c-bd1371309e03}",
+                "commandline": "%PROGRAMFILES%/Git/usr/bin/bash.exe -i -l",
+                "guid": "{164a0da7-2c23-47e2-a5ab-e6183d463bd0}",
                 "hidden": false,
                 "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
                 "name": "Git Bash",
