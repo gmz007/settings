@@ -1,12 +1,15 @@
 {
-  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "workbench.colorTheme": "Ayu Dark Bordered",
   "workbench.iconTheme": "ayu",
-  "workbench.startupEditor": "none",
-  // "files.autoSave": "afterDelay",
-  // "files.autoSaveDelay": 3000,
+
   "editor.renderWhitespace": "boundary",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "security.workspace.trust.untrustedFiles": "open"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "search.useGlobalIgnoreFiles": true,
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 30000,
 }
