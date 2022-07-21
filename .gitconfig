@@ -1,0 +1,9 @@
+[user]
+	name = ezgnem
+	email = gao_mengze@outlook.com
+[alias]
+	aa = add .
+	st = status
+	br = branch
+	logs = log --oneline
+	logv = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
