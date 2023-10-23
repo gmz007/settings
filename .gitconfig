@@ -2,9 +2,18 @@
 	name = ezgnem
 	email = gao_mengze@outlook.com
 [alias]
-	aa = add .
+	# Command shortcuts
+        aa = add --all
+	ci = commit
+	co = checkout
 	st = status
 	br = branch
+
+        # List available aliases
+	aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
+
+	# Display tree-like log, because default log is a pain…
+	lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
 	logs = log --oneline
 	logv = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [core]
