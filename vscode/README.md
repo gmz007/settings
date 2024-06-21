@@ -1,3 +1,38 @@
+# Vscode useful commands
+
+## General useful extensions
+
+Prettier
+
+```
+code --install-extension esbenp.prettier-vscode
+```
+
+Todo
+
+```
+code --install-extension Gruntfuggly.todo-tree
+```
+
+## Workspace theme/icons
+
+Icons
+
+```
+code --install-extension pkief.material-icon-theme
+```
+
+## Export workspace extensions
+
+Unix
+
+```
+code --list-extensions | xargs -L 1 echo code --install-extension
+```
+
+## Prettier boilerplate
+
+```
 {
     "overrides": [
         {
@@ -33,3 +68,4 @@
         }
     ]
 }
+```

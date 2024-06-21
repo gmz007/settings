@@ -1,8 +1,7 @@
 {
   "security.workspace.trust.untrustedFiles": "open",
 
-  "workbench.colorTheme": "Ayu Dark Bordered",
-  "workbench.iconTheme": "ayu",
+  "workbench.iconTheme": "material-icon-theme",
 
   "editor.renderWhitespace": "boundary",
   "editor.formatOnSave": true,

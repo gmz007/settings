@@ -1,12 +1,12 @@
 [alias]
 	# Command shortcuts
-        aa = add --all
+	aa = add --all
 	ci = commit
 	co = checkout
 	st = status
 	br = branch
 
-        # List available aliases
+	# List available aliases
 	aliases = !git config --get-regexp alias | sed -re 's/alias\\.(\\S*)\\s(.*)$/\\1 = \\2/g'
 
 	# Display tree-like log, because default log is a pain…
