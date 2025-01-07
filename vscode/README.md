@@ -1,71 +1,26 @@
-# Vscode useful commands
+# Vscode settings
 
-## General useful extensions
-
-Prettier
-
-```
-code --install-extension esbenp.prettier-vscode
-```
-
-Todo
-
-```
-code --install-extension Gruntfuggly.todo-tree
-```
-
-## Workspace theme/icons
-
-Icons
-
-```
-code --install-extension pkief.material-icon-theme
-```
-
-## Export workspace extensions
-
-Unix
-
-```
-code --list-extensions | xargs -L 1 echo code --install-extension
-```
-
-## Prettier boilerplate
+## Default
 
 ```
 {
-    "overrides": [
-        {
-            "files": ["**/*.htm", "**/*.html"],
-            "options": {
-                "tabWidth": 2,
-                "printWidth": 160,
-                "bracketSameLine": true
-            }
-        },
-        {
-            "files": ["**/*.css"],
-            "options": {
-                "tabWidth": 2
-            }
-        },
-        {
-            "files": ["**/*.js"],
-            "options": {
-                "tabWidth": 4,
-                "semi": true
-            }
-        },
-        {
-            "files": ["**/*.json"],
-            "options": {
-                "tabWidth": 4
-            }
-        },
-        {
-            "files": ["**/.prettierrc.json"],
-            "options": { "parser": "json" }
-        }
-    ]
+  "window.zoomLevel": -1.5,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#444444"
+  },
+
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.fontFamily": "Roboto Mono",
+  "editor.rulers": [80],
+  
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 30000,
+  
+  "search.useGlobalIgnoreFiles": true
 }
 ```
